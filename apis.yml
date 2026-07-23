@@ -1,8 +1,26 @@
 aid: aidenai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aidenai.png
 name: Aiden.ai
-description: 'Aiden.ai is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Aiden.ai was a London-based marketing-analytics startup, founded in 2016 by Marie
+  Outtier and Pierre-Jean Camillieri, that built what it billed as the first AI-powered marketing
+  analyst: a machine-reading assistant that ingested large volumes of paid-advertising data to
+  surface actionable insights, detect anomalies, predict campaign performance, and proactively act
+  to improve ROI. It raised a $1.6M seed round led by Partech in 2018 and was acquired by Twitter
+  (now X) on 2019-11-21. The company no longer operates as an independent business, ships no public
+  product or developer API, and the aiden.ai domain is now parked and listed for sale (Afternic).
+  This profile is retained as a Partech portfolio lead but is defunct: there is no live developer
+  surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/aidenai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,27 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: twitter
+x-acquired-date: '2019-11-21'
+x-defunct: true
+x-enrichment-note: 'Enrichment pass 2026-07-17 found no live developer surface. Domain aiden.ai
+  redirects/parks to Afternic (for sale); nameservers ns3/ns4.afternic.com. Company acquired by
+  Twitter 2019-11-21. No OpenAPI, docs, portal, or API to search/generate/derive from. Identity
+  updated from public sources (Partech, tech.eu funding coverage); no API artifacts created.'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Applicative Saas
+- Marketing
+- Analytics
+- Artificial Intelligence
+- Advertising
+- Marketing Analytics
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +57,10 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.aiden.ai/
+  url: https://www.aiden.ai/
+  x-note: parked/for-sale (Afternic); company acquired by Twitter 2019-11-21
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
