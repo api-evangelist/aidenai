@@ -36,7 +36,7 @@ x-enrichment-note: 'Enrichment pass 2026-07-17 found no live developer surface. 
   redirects/parks to Afternic (for sale); nameservers ns3/ns4.afternic.com. Company acquired by
   Twitter 2019-11-21. No OpenAPI, docs, portal, or API to search/generate/derive from. Identity
   updated from public sources (Partech, tech.eu funding coverage); no API artifacts created.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
